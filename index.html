@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StrongHeron QA Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #263247;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #172554;
+            color: white;
+            padding: 65px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 12px;
+        }
+
+        header p {
+            color: #dbeafe;
+            max-width: 650px;
+            margin: auto;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px #00000010;
+        }
+
+        nav a {
+            color: #334155;
+            text-decoration: none;
+            margin: 0 12px;
+            font-size: 14px;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #172554;
+            margin-bottom: 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            box-shadow: 0 3px 12px #00000008;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .stat {
+            background: white;
+            padding: 22px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .stat h3 {
+            font-size: 30px;
+            color: #2563eb;
+        }
+
+        .phases {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        .phase {
+            background: white;
+            padding: 18px;
+            border-radius: 10px;
+            border-left: 4px solid #2563eb;
+        }
+
+        .phase.pending {
+            border-left-color: #94a3b8;
+        }
+
+        .status {
+            font-size: 13px;
+            color: #15803d;
+            font-weight: bold;
+        }
+
+        .pending .status {
+            color: #64748b;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 8px 10px 0 0;
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #172554;
+            color: #dbeafe;
+            text-align: center;
+            padding: 25px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>StrongHeron QA Portfolio</h1>
+        <p>Manual Software Testing Documentation
+        <br>Web Application & Progressive Web Application (PWA)</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#project">Project</a>
+        <a href="#testing">Testing Progress</a>
+        <a href="#skills">Skills</a>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="card">
+                <p>
+                    Lulusan S1 Teknologi Informasi yang memiliki minat
+                    di bidang Quality Assurance (QA) Testing.
+                    Memiliki pengalaman melakukan pengujian aplikasi web
+                    secara manual selama magang di KPH Perhutani.
+                </p>
+                <br>
+                <p>
+                    Selain itu, mengembangkan kemampuan QA melalui
+                    proyek pengujian StrongHeron, meliputi penyusunan
+                    test case, pengujian fungsional, identifikasi bug,
+                    dan dokumentasi hasil pengujian.
+                </p>
+            </div>
+        </section>
+
+        <section id="project">
+            <h2>Project Overview</h2>
+            <div class="card">
+                <h3>StrongHeron</h3>
+                <p>
+                    Proyek praktik Quality Assurance untuk menguji
+                    aplikasi web Admin dan aplikasi mobile berbasis PWA.
+                </p>
+                <div class="links">
+                    <a href="https://strongheron-react.vercel.app/"
+                       target="_blank">Admin Web ↗</a>
+                    <a href="https://strongheron-pwa-mobile.vercel.app/"
+                       target="_blank">PWA Mobile ↗</a>
+                    <a href="https://github.com/annisamaizaliayanti/Qa_Testing"
+                       target="_blank">GitHub Repository ↗</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="testing">
+            <h2>Testing Progress</h2>
+
+            <div class="stats">
+                <div class="stat">
+                    <h3>14</h3>
+                    <p>Total Testing Phases</p>
+                </div>
+                <div class="stat">
+                    <h3>6</h3>
+                    <p>Phases Completed</p>
+                </div>
+                <div class="stat">
+                    <h3>8</h3>
+                    <p>Not Yet Completed</p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="phases">
+                <div class="phase">
+                    <h3>Phase 1–6</h3>
+                    <p class="status">Testing Completed</p>
+                    <p>Testing documentation and results available in the repository.</p>
+                </div>
+
+                <div class="phase pending">
+                    <h3>Phase 7–14</h3>
+                    <p class="status">Not Yet Completed</p>
+                    <p>Further testing phases have not been completed.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>QA Skills & Activities</h2>
+            <div class="card">
+                <ul>
+                    <li>Manual Functional Testing</li>
+                    <li>Test Case Documentation</li>
+                    <li>Bug Identification and Reporting</li>
+                    <li>Regression Testing</li>
+                    <li>Web Application Testing</li>
+                    <li>Mobile PWA Testing</li>
+                    <li>Test Result Documentation</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>StrongHeron QA Portfolio | Quality Assurance Practice Project</p>
+    </footer>
+
+</body>
+</html>
